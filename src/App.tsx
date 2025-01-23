@@ -1,10 +1,19 @@
 import React, { ChangeEvent } from 'react';
 import './App.css';
-import DTextInput from './App/UI/Components/DTextInput/DTextInput';
 
 function App() {
   return (
-    <DTextInput label={'Sex'} name={'me'} value={'value'} onChange={() => { }} />
+    <div >
+      <header>
+        <h2>D'roid Text Input</h2>
+      </header>
+      <body>
+        <p>This is the body</p>
+      </body>
+      <footer>
+        <p>Footer</p>
+      </footer>
+    </div>
   );
 }
 
